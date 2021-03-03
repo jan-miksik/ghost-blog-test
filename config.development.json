@@ -13,7 +13,7 @@
   "mail": {
     "transport": "SMTP",
     "options": {
-      "service": "Gmail",
+      "service": "Gmail ",
       "auth": {
         "user": "cheaproadrunner@gmail.com",
         "pass": "Q9pK2p4nRoBHoA"
@@ -21,10 +21,7 @@
     }
   },
   "logging": {
-    "transports": [
-      "file",
-      "stdout"
-    ]
+    "transports": ["file", "stdout"]
   },
   "process": "local",
   "paths": {
